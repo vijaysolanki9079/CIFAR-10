@@ -40,6 +40,7 @@ convolutional_base = ResNet50(
     input_shape=(256, 256, 3) # Used as a feature extractor
 )
 convolutional_base.summary()
+```
 
 ### 🧩 Custom Classification Head
 
